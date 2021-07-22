@@ -1,4 +1,4 @@
-import { theme } from './constants';
+import { theme } from './constants.js';
 const LOCALSTORAGE_THEME_KEY = 'current-theme';
 const checkboxEl = document.querySelector('#theme-switch-toggle');
 

@@ -3,4 +3,5 @@ import menuItem from '../templates/menu-list-item.hbs';
 
 const menuListEl = document.querySelector('.js-menu');
 
-menuListEl.innerHTML = menuItem(menuData);
+const murkup = menuItem(menuData);
+menuListEl.insertAdjacentHTML('beforeend', markup);
