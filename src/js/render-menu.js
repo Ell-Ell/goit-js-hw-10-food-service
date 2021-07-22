@@ -5,4 +5,4 @@ const menuListEl = document.querySelector('.js-menu');
 
 const murkup = menuItem(menuData);
 menuListEl.insertAdjacentHTML('beforeend', markup);
-console.log(menuData);
+console.log(hello);
