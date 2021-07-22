@@ -3,6 +3,6 @@ import menuItem from '../templates/menu-list-item.hbs';
 
 const menuListEl = document.querySelector('.js-menu');
 
-const murkup = menuItem(menuData);
-menuListEl.insertAdjacentHTML('beforeend', markup);
-console.log(hello);
+// const murkup = menuItem(menuData);
+// menuListEl.insertAdjacentHTML('beforeend', markup);
+menuListEl.innerHTML = menuItem(menuData);
